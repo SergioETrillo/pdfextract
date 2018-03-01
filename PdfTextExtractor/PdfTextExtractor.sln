@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfTextExtractor", "PdfTextExtractor\PdfTextExtractor.csproj", "{A2867D21-3650-400A-B99C-E9E867F1D3A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExtractor", "ConsoleExtractor\ConsoleExtractor.csproj", "{AE88D9A3-53FC-4530-AEBA-2890F02580EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{A2867D21-3650-400A-B99C-E9E867F1D3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2867D21-3650-400A-B99C-E9E867F1D3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2867D21-3650-400A-B99C-E9E867F1D3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE88D9A3-53FC-4530-AEBA-2890F02580EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE88D9A3-53FC-4530-AEBA-2890F02580EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE88D9A3-53FC-4530-AEBA-2890F02580EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE88D9A3-53FC-4530-AEBA-2890F02580EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BAE50B9-7D90-47E7-A645-B676630C92C7}
 	EndGlobalSection
 EndGlobal
